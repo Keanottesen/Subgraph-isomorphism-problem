@@ -25,7 +25,7 @@ class Testiso extends Command {
     
     const result = FlowService.getIsomorphicSubgraphs(workspaceNodes, workspaceEdges, conditionNodes, conditionEdges)
 
-    console.log(result)
+    // console.log(result)
   }
 
   workspace() {

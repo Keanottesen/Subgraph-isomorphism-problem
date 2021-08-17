@@ -30,9 +30,9 @@ class FlowService {
     conditionEdges,
   ) {
     const G = this.convertToAdjacencyMatrix(workspaceNodes, workspaceEdges);
-
+    console.log(G)
     const P = this.convertToAdjacencyMatrix(conditionNodes, conditionEdges);
-
+    console.log(P)
     const G_size = G.length;
     const P_size = P.length;
 
@@ -52,7 +52,7 @@ class FlowService {
     const maxNum = null;
 
     this.recurse(math.zeros(1, G_size).toArray()[0], 0, G, P, M, results, maxNum, false);
-    console.log(results);
+    // console.log(results);
     // console.log(this.convertToFlow(results[0]));
     return results;
   }
@@ -76,8 +76,8 @@ class FlowService {
     nodes.forEach((node) => {
       adjacencyList2.set(node.id, graph.adjacent(node.id));
     });
-    console.log(adjacencyList);
-    console.log(adjacencyList2);
+    // console.log(adjacencyList);
+    // console.log(adjacencyList2);
 
     // create ajacency matrix
 
