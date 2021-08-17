@@ -1,0 +1,145 @@
+[
+
+        {
+            "id": "121",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "conditionValues": []
+            },
+            "position": {
+                "x": 139,
+                "y": 53
+            }
+        },
+        {
+            "id": "122",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -178,
+                "y": 47
+            }
+        },
+        {
+            "id": "123",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -42,
+                "y": 173
+            }
+        },
+        {
+            "id": "124",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -43,
+                "y": 302
+            }
+        },
+        {
+            "id": "125",
+            "type": "custom",
+            "data": {
+                "label": "Kunde",
+                "conditionValues": []
+            },
+            "position": {
+                "x": 249,
+                "y": 302
+            }
+        },
+        {
+            "id": "126",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -288,
+                "y": 322
+            }
+        },
+        {
+            "id": "48",
+            "source": "122",
+            "target": "123",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "type": "straight",
+            "data": {
+                "label": "Overførsel",
+                "comparison_type": "contains",
+                "comparison_value": "Data"
+            },
+            "label": "Overførsel contains Data"
+        },
+        {
+            "id": "49",
+            "source": "121",
+            "target": "123",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "type": "straight",
+            "data": {
+                "label": "Overførsel",
+                "comparison_type": "contains",
+                "comparison_value": "Data"
+            },
+            "label": "Overførsel contains Data"
+        },
+        {
+            "id": "50",
+            "source": "123",
+            "target": "124",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "type": "straight",
+            "data": {
+                "label": "Aftale eller dokument",
+                "comparison_type": "is equal to",
+                "comparison_value": "DPA"
+            },
+            "label": "Aftale eller dokument is equal to DPA"
+        },
+        {
+            "id": "51",
+            "source": "124",
+            "target": "125",
+            "sourceHandle": "rightTop",
+            "targetHandle": "leftTop",
+            "type": "straight",
+            "data": {
+                "label": "Fordring",
+                "comparison_type": "is equal to",
+                "comparison_value": "Penge"
+            },
+            "label": "Fordring is equal to Penge"
+        },
+        {
+            "id": "52",
+            "source": "124",
+            "target": "126",
+            "sourceHandle": "leftTop",
+            "targetHandle": "rightTop",
+            "type": "straight",
+            "data": {
+                "label": "Transaktion",
+                "comparison_type": "exists",
+                "comparison_value": ""
+            },
+            "label": "Transaktion exists "
+        }
+]

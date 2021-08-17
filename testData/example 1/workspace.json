@@ -1,0 +1,682 @@
+[
+        {
+            "id": "6018",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1388,
+                "y": 862
+            }
+        },
+        {
+            "id": "6019",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1225,
+                "y": 858
+            }
+        },
+        {
+            "id": "6020",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1234,
+                "y": 726
+            }
+        },
+        {
+            "id": "6021",
+            "type": "custom",
+            "data": {
+                "label": "Kommanditselskab (K/S)",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1058,
+                "y": 984
+            }
+        },
+        {
+            "id": "6022",
+            "type": "custom",
+            "data": {
+                "label": "K/S General Partner",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1044,
+                "y": 856
+            }
+        },
+        {
+            "id": "6023",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1531,
+                "y": 855
+            }
+        },
+        {
+            "id": "6024",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1725,
+                "y": 973
+            }
+        },
+        {
+            "id": "6025",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1313,
+                "y": 1036
+            }
+        },
+        {
+            "id": "6026",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1377,
+                "y": 1189
+            }
+        },
+        {
+            "id": "6027",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1164,
+                "y": 1232
+            }
+        },
+        {
+            "id": "6028",
+            "type": "custom",
+            "data": {
+                "label": "Kunde",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1621,
+                "y": 1226
+            }
+        },
+        {
+            "id": "6029",
+            "type": "custom",
+            "data": {
+                "label": "Leverandør",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 1493,
+                "y": 1030
+            }
+        },
+        {
+            "id": "5763",
+            "source": "6022",
+            "target": "6020",
+            "sourceHandle": "top",
+            "targetHandle": "bottom",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "2%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "2%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5764",
+            "source": "6020",
+            "target": "6019",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "33%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "33%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5765",
+            "source": "6020",
+            "target": "6018",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "33%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "33%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5766",
+            "source": "6020",
+            "target": "6023",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "4%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "4%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5767",
+            "source": "6023",
+            "target": "6024",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5768",
+            "source": "6019",
+            "target": "6021",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5769",
+            "source": "6019",
+            "target": "6025",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Overførsel",
+                "value": "Data Overførsel",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Data Overførsel",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5770",
+            "source": "6018",
+            "target": "6025",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Overførsel",
+                "value": "Data Overførsel",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Data Overførsel",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5771",
+            "source": "6025",
+            "target": "6026",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Aftale eller dokument",
+                "value": "DPA",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "DPA",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5772",
+            "source": "6026",
+            "target": "6027",
+            "sourceHandle": "leftTop",
+            "targetHandle": "rightTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Transaktion",
+                "value": "Tangible Assets",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Tangible Assets",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5773",
+            "source": "6026",
+            "target": "6028",
+            "sourceHandle": "rightTop",
+            "targetHandle": "leftTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Fordring",
+                "value": "Penge",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Penge",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5774",
+            "source": "6024",
+            "target": "6029",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Overførsel",
+                "value": "JSON Data",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "JSON Data",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5775",
+            "source": "6023",
+            "target": "6029",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Overførsel",
+                "value": "Data",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Data",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5776",
+            "source": "6029",
+            "target": "6026",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Aftale eller dokument",
+                "value": "DPA",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "DPA",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        }
+    ]

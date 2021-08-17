@@ -1,0 +1,53 @@
+[
+        {
+            "id": "133",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -44,
+                "y": 154
+            }
+        },
+        {
+            "id": "134",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "conditionValues": []
+            },
+            "position": {
+                "x": -47,
+                "y": -51
+            }
+        },
+        {
+            "id": "58",
+            "source": "134",
+            "target": "133",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "type": null,
+            "data": {
+                "label": "Ejerskab",
+                "comparison_type": "is less than",
+                "comparison_value": "20%"
+            },
+            "label": "Ejerskab is less than 20%"
+        },
+        {
+            "id": "59",
+            "source": "134",
+            "target": "133",
+            "sourceHandle": "rightTop",
+            "targetHandle": "rightTop",
+            "type": "custom",
+            "data": {
+                "label": "Transaktion",
+                "comparison_type": "is equal to",
+                "comparison_value": "SHL"
+            }
+        }
+    ]

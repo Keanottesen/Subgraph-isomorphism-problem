@@ -1,287 +1,202 @@
-/* eslint-disable guard-for-in */
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable max-len */
-/* eslint-disable no-plusplus */
-/* eslint-disable no-param-reassign */
-// const Condition = use('App/Models/Condition');
-const math = require('mathjs');
-const Graph = require('graph-data-structure');
-
 class FlowService {
-  /**
- * Finds isomorphisms (mappings) of a subgraph in a host/mother graph.
- *
- * The subgraph algorithm is based on: http://adriann.github.io/Ullman%20subgraph%20isomorphism.html
- *
- * This algorithm is exponential and will be slow for large inputs.
- *
- * @param G {number[][]} Adjacency matrix of the host/mother graph in which to search for a match.
- * @param P {number[][]} Adjacency matrix of subgraph to search for
- * @param maxNum {number} [null] the maximum number isomorphisms to find, may return fewer if fewer are matched.
- * @param similarityCriteria {function} [degreeCriteria] a function used to determine if two nodes are similar enough to be candidates for matching in the resulting morphism.
- *
- * @returns {number[][][]} an array of morphism matrices (rows indices correspond to vertices of P, col indices correspond to vertices of G), null if error.
+
+/**
+ * @typedef WorkspaceAttribut
+ * @type {object}
+ * @property {string} label - a label for the attribut.
+ * @property {string} displayName - value.
+ * @property {boolean} show - a boolean to toggle if it should be visable on the node (has no implication in regards to the algorithm).
+ * @property {number} workspace_node_attribut_id - a primary key.
+ * @property {string} type - either Selection og Value.
+ * @property {JSON} selectionOptions - used if type=Selection to show the posibilities in the frontend.
+*/
+
+/**
+ * @typedef WorkspaceDataNode
+ * @type {object}
+ * @property {string} label - a label for the node.
+ * @property {string} displayName - a custom name to display.
+ * @property {string} figur - a figur to display on the node.
+ * @property {string} unitNumber - a number relating to the company register.
+ * @property {WorkspaceAttribut[]} attributes - specific attributes relating to the node like eg. company type.
+ * @property {string} backgroundColor - background color of the node.
+ * @property {string} borderColor - border color of the node.
+*/
+
+/**
+ * @typedef Attribut
+ * @type {object}
+ * @property {number} id - an ID
+ * @property {string} label - a label for the attribut.
+ * @property {string} description - a description of the attribut.
+ * @property {string} type - either Selection og Value.
+ * @property {JSON} selectionOptions - used if type=Selection to show the posibilities in the frontend.
+ * @property {string} group_id
+ * @property {string} created_at
+ * @property {string} updated_at
+*/
+
+/**
+ * @typedef ConditionDataNode
+ * @type {object}
+ * @property {string} id - an ID.
+ * @property {string} attribut_id - an id of the attribut.
+ * @property {string} comparison_type - a string that tells which type of comparison is to be made eg. "is not equal to" is equal to "!=" This can be one of these posibilities:
+ *    'is equal to',
+      'is not equal to',
+      'is greater than',
+      'is less than',
+      'exists',
+      'does not exist',
+      'contains',
+      'does not contain',.
+ * @property {string} comparison_value - a string that tells what to compare with the comparison type.
+ * @property {string} condition_node_id - an id of the node.
+ * @property {string} created_at
+ * @property {string} updated_at
+ * @property {Attribut} attribut - attribut to compare
+*/
+
+/**
+ * @typedef ConditionDataNode
+ * @type {object}
+ * @property {string} label - a label for the node.
+ * @property {ConditionValues[]} conditionValues - Values to match the attributes of a WorkspaceNode.
+*/
+
+/**
+ * @typedef WorkspaceDataEdge
+ * @type {object}
+ * @property {string} label - a label for the edge.
+ * * @property {string} value - a value for the edge.
+ * * @property {boolean} showLabel
+ * * @property {object} color - color of the edge.
+ * * @property {boolean} showArrow
+ * * @property {boolean} animated
+ * * @property {boolean} lineThrough
+ * * @property {boolean} stroke
+*/
+
+/**
+ * @typedef ConditionDataEdge
+ * @type {object}
+ * @property {string} label - a label for the edge.
+ * @property {string} comparison_type - a string that tells which type of comparison is to be made eg. "is not equal to" is equal to "!=" This can be one of these posibilities:
+ *    'is equal to',
+      'is not equal to',
+      'is greater than',
+      'is less than',
+      'exists',
+      'does not exist',
+      'contains',
+      'does not contain',.
+ * @property {boolean} comparison_value - a string that tells what to compare with the comparison type.
+*/
+
+/**
+ * @typedef Node
+ * @type {object}
+ * @property {string} id - an ID.
+ * @property {string} type - the type of the node.
+ * @property {WorkspaceDataNode|ConditionDataNode} data - data on the node.
+ * @property {object} position - the x and y coordinates of the node.
  */
 
-  static getIsomorphicSubgraphs(
-    workspaceNodes,
-    workspaceEdges,
-    conditionNodes,
-    conditionEdges,
-  ) {
-    const G = this.convertToAdjacencyMatrix(workspaceNodes, workspaceEdges);
-    console.log(G)
-    const P = this.convertToAdjacencyMatrix(conditionNodes, conditionEdges);
-    console.log(P)
-    const G_size = G.length;
-    const P_size = P.length;
+/**
+ * @typedef Edge
+ * @type {object}
+ * @property {string} id - an ID.
+ * @property {string} source - id of the WorkspaceNode that is the source of the edge.
+ * @property {string} target - id of the WorkspaceNode that is the target of the edge.
+ * @property {string} sourceHandle - a handle where the edge is attached on the source (irrelevant for the evaluation of isomorphism).
+ * @property {string} targetHandle - a handle where the edge is attached on the target (irrelevant for the evaluation of isomorphism).
+ * @property {object} style - style of the edge.
+ * @property {WorkspaceDataEdge|ConditionDataEdge} data - data on the edge.
+ * @property {string} label - label on the edge (this is the same as in the data object).
+ * @property {number[]} labelBgPadding - padding, to the label in the frontend.
+ * @property {object} labelStyle - style on the label.
+ * @property {boolean} animated - whether the edge should be animated or not.
+ * @property {boolean} arrowHeadType - if the edge should conatin an arrowhead.
+ * @property {type} type - the type of the edge.
+ */
 
-    // No match possible if |P| > |G|, not an error.
-    if (G_size < P_size) return [];
-
-    // Input adjacency matrices must be square, error if not
-    if (!this.checkSquareMatrix(G)) return null;
-    if (!this.checkSquareMatrix(P)) return null;
-
-    const similarityCriteria = () => true; // use this for deeper comparison
-
-    const M = this.initMorphism(G, P, similarityCriteria);
-
-    const results = [];
-
-    const maxNum = null;
-
-    this.recurse(math.zeros(1, G_size).toArray()[0], 0, G, P, M, results, maxNum, false);
-    // console.log(results);
-    // console.log(this.convertToFlow(results[0]));
-    return results;
-  }
-
-  static convertToAdjacencyMatrix(nodes, edges) {
-    // create graph data structure
-    const graph = Graph();
-    nodes.forEach((node) => graph.addNode(node.id));
-    edges.forEach((edge) => graph.addEdge(edge.source, edge.target));
-
-    const nodeIds = nodes.map((x) => x.id);
-
-    // create adjacency list
-    const adjacencyList = new Map();
-    const adjacencyList2 = new Map();
-
-    nodes.forEach((node, index) => {
-      adjacencyList.set(index, graph.adjacent(node.id).map((x) => nodeIds.findIndex((n) => n === x)));
-    });
-
-    nodes.forEach((node) => {
-      adjacencyList2.set(node.id, graph.adjacent(node.id));
-    });
-    // console.log(adjacencyList);
-    // console.log(adjacencyList2);
-
-    // create ajacency matrix
-
-    const V = nodes.length;
-
-    const matrix = Array.from(Array(V), () => Array(V).fill(0));
-
-    for (let i = 0; i < V; i++) {
-      for (const j of adjacencyList.get(i)) {
-        matrix[i][j] = 1;
-      }
-    }
-
-    return matrix;
-  }
-
-  static convertToFlow(matrix, orgNodes, orgEdges) {
-    const adjList = matrix.map((a) => a.map((v, i) => (v ? i : -1)).filter((v) => v !== -1));
-
-    const nodes = [];
-    const edges = [];
-
-    adjList.forEach((items, index) => {
-      const node = orgNodes[index];
-
-      items.forEach((targetIndex) => {
-        const source = orgNodes[index].id;
-        const target = orgNodes[targetIndex].id;
-
-        edges.push(orgEdges.find((x) => x.source === source.toString() && x.target === target.toString()));
-      });
-
-      nodes.push(node);
-    });
-
-    return [...nodes, ...edges];
-  }
-
-  static initMorphism(G, P, criteriaFun) {
-    const P_size = P.length;
-    const G_size = G.length;
-
-    const M = math.zeros(P_size, G_size).toArray();
-
-    for (let i = 0; i < P_size; i++) {
-      for (let j = 0; j < G_size; j++) {
-        if (criteriaFun(P, G, i, j)) {
-          M[i][j] = 1;
-        }
-      }
-    }
-
-    return M;
-  }
-
-  static recurse(used_columns, cur_row, G, P, M, out, num, prune) {
-    const cols = this.num_cols(M);
-
-    if (cur_row === this.num_rows(M)) {
-      if (this.isIso(M, G, P)) {
-        out.push(this.array2DCopy(M));
-      }
-    } else {
-      const Mp = this.array2DCopy(M);
-
-      // prune the proposed morphism to remove
-      // mappings that are obviously not possible.
-      if (prune) {
-        this.pruneOptions(Mp, P, G);
-      }
-
-      // for all unused columns c
-      for (let c = 0; c < cols; c++) {
-        // only explore if the nodes are candidates for matching and the
-        // column has not been set yet.
-        if (used_columns[c] === 0 && M[cur_row][c] === 1) {
-          // set column c in M' to 1 and other columns to 0
-          for (let i = 0; i < cols; i++) {
-            if (i === c) {
-              Mp[cur_row][i] = 1;
-            } else {
-              Mp[cur_row][i] = 0;
+ /**
+  * @param {[Node, Edge]} workspace
+  * @param {[Node, Edge]} condition 
+  * @returns {[Node, Edge]|[]} Should return the workspace elements that are isomorphic to the condition or an empty array, if no subgraph that is isomorphic exists
+  * @description This functions should take two params; workspace and condition.
+  * The functions should thereby compare the two and find all occurences of the condition in the workspace.
+  * The conditionData is build up of logical comparisons, cf. {ConditionDataNode} and {ConditionDataEdge}.
+  * 
+  * The functions should determine a logical equialty of two nodes in a workspace and a condition
+  * by matching both the labels in each and the condition values in a conditionNode to the attributes in a workspaceNode.
+  * So for example if the conditionNode has an object like this: 
+  * "data": {
+    "label": "Company",
+    "conditionValues": [
+        {
+            ...
+            "comparison_type": "is not equal to",
+            "comparison_value": "USA",
+            ...
+            "attribut": {
+                ...
+                "label": "Country",
+                ...
             }
-          }
-
-          // mark c as used
-          used_columns[c] = 1;
-
-          // recurse, but only if they want to find more isomorphisms.
-          if (num === null || out.length < num) {
-            this.recurse(used_columns, cur_row + 1, G, P, Mp, out, num);
-          }
-
-          // mark c as unused
-          used_columns[c] = 0;
-        }
-      }
-    }
-  }
-
-  static checkSquareMatrix(A) {
-    const s = A.length;
-
-    for (let i = 0; i < s; i++) {
-      if (A[i].length !== s) return false;
-    }
-
-    return true;
-  }
-
-  static num_cols(M) {
-    return M[0].length;
-  }
-
-  static num_rows(M) {
-    return M.length;
-  }
-
-  static isIso(M, G, P) {
-    const rows = this.num_rows(P);
-
-    const morph = this.mapPtoG(M);
-
-    for (let r1 = 0; r1 < rows; r1++) {
-      for (let r2 = 0; r2 < rows; r2++) {
-        // adjacent in P
-        if (P[r1][r2] === 1) {
-          // find mapped nodes in G
-          const c1 = morph(r1);
-          const c2 = morph(r2);
-
-          // are they adjacent in G?
-          if (G[c1][c2] !== 1) {
-            // no - not isomorphism
-            return false;
-          }
-        }
-      }
-    }
-
-    return true;
-  }
-
-  static array2DCopy(A) {
-    const X = [];
-
-    for (let i = 0; i < A.length; i++) {
-      X[i] = A[i].slice();
-    }
-
-    return X;
-  }
-
-  static pruneOptions(M, P, G) {
-    // M first dim (rows) are vertices of sub graph P
-    // M second dim (cols) are vertices of host graph G
-
-    for (let i = 0; i < M.length; i++) {
-      for (let j = 0; j < M.length; j++) {
-        // i - the vertex in P
-        // j - the vertex in G
-
-        // for all M[i][j] === 1
-        if (M[i][j] === 1) {
-          // for all neighbours x of vertex i in P
-          for (let x = 0; x < P.length; x++) {
-            if (P[i][x] === 1) {
-              // x is a vertex in P that is adjacent to i
-
-              // if there is no neighbour y of vertex j in G such
-              // that M[x][y] === 1, then set M[i][j] = 0
-
-              let hasNeighbourY = false;
-              for (let y = 0; y < G.length; y++) {
-                if (G[j][y] === 1) {
-                  hasNeighbourY = true;
-                  break;
-                }
-              }
-
-              if (!hasNeighbourY) {
-                M[i][j] = 0;
-              }
+        },
+        {
+            ...
+            "comparison_type": "is equal to",
+            "comparison_value": "12",
+            ...
+            "attribut": {
+                ...
+                "label": "Employees",
+                ...
             }
-          }
         }
-      }
+    ]
+  },
+  * there is logical equality if the workspaceNode has a data object looking like this:
+    "data": {
+        "label": "Company",
+        ...
+        "attributes": [
+            {
+                "label": "Employees",
+                "value": "12",
+                ...
+            },
+            {
+                "label": "Country",
+                "value": "Denmark",
+                ...
+            }
+        ],
+        ...
+    },
+  * 
+  * The function should determine logical equality of two edges in a workspace and a condition
+  * by mathcing both the labels in each and the condition comparison type and value to the value of the workspace node.
+  * So for example if the conditionEdge has an object looking like this:
+  * "data": {
+      "label": "Transaktion",
+      "comparison_type": "is equal to",
+      "comparison_value": "IP"
     }
-  }
+  * there is logical equality if the workspaceEdge has a data object looking like this:
+  * "data": {
+            "label": "Transaktion",
+            "value": "IP",
+            ...
+        },
+  * 
+  * ... means that there are irrelevant data in between
+  */
 
-  static mapPtoG(M) {
-    const cols = this.num_cols(M);
-
-    return (p) => {
-      for (let c = 0; c < cols; c++) {
-        if (M[p][c] === 1) return c;
-      }
-    };
-  }
-
-  static getConnectedEdges(nodes, edges) {
-    const nodeIds = nodes.map((node) => node.id);
-
-    return edges.filter((edge) => nodeIds.includes(edge.source));
+  static getIsomorphicSubgraphs(workspace, condition) {
+  
   }
 
   static isNode(element) {

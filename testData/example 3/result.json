@@ -1,0 +1,312 @@
+[
+    [
+        {
+            "id": "6057",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "Danmarks Tekniske Universitet",
+                "figur": null,
+                "unitNumber": "5510203",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1053,
+                "y": -61
+            }
+        },
+        {
+            "id": "6053",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "PreSeed Ventures A/S",
+                "figur": null,
+                "unitNumber": "4000411566",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1085,
+                "y": 73
+            }
+        },
+        {
+            "id": "5802",
+            "source": "6057",
+            "target": "6053",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "4%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "4%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "default"
+        },
+        {
+            "id": "5817",
+            "source": "6057",
+            "target": "6053",
+            "sourceHandle": "rightTop",
+            "targetHandle": "rightBottom",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Transaktion",
+                "value": "SHL",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "custom"
+        }
+    ],
+    [
+        {
+            "id": "6049",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "PreSeed Ventures Tech Fund I K/S",
+                "figur": null,
+                "unitNumber": "4008479893",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1362,
+                "y": 172
+            }
+        },
+        {
+            "id": "6063",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "Teton.ai Holding ApS",
+                "figur": null,
+                "unitNumber": "4008488466",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1668,
+                "y": 247
+            }
+        },
+        {
+            "id": "5808",
+            "source": "6049",
+            "target": "6063",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "10%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "10%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "default"
+        },
+        {
+            "id": "5820",
+            "source": "6049",
+            "target": "6063",
+            "sourceHandle": "rightTop",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Transaktion",
+                "value": "SHL",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "SHL",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "default"
+        }
+    ],
+    [
+        {
+            "id": "6065",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "Enterspeed A/S",
+                "figur": null,
+                "unitNumber": "4008444480",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1595,
+                "y": 493
+            }
+        },
+        {
+            "id": "6068",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "Legal Monster ApS",
+                "figur": null,
+                "unitNumber": "4007649295",
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(0, 0, 0, 1)"
+            },
+            "position": {
+                "x": 1545,
+                "y": 635
+            }
+        },
+        {
+            "id": "5821",
+            "source": "6065",
+            "target": "6068",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "15%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "15%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "default"
+        },
+        {
+            "id": "5822",
+            "source": "6065",
+            "target": "6068",
+            "sourceHandle": "rightTop",
+            "targetHandle": "rightTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Transaktion",
+                "value": "SHL",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": "custom"
+        }
+    ]
+]

@@ -7,3 +7,5 @@ adonis test:ios
 ```
 
 The code for the command can be found in App/Commands/Testiso
+
+Test data can be found in testData/

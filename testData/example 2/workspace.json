@@ -1,0 +1,888 @@
+[
+        {
+            "id": "6030",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": "Kean",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 114,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(, , , )",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 352,
+                "y": 461
+            }
+        },
+        {
+            "id": "6031",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": "Christian",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(, , , )",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 489,
+                "y": 462
+            }
+        },
+        {
+            "id": "6032",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": "Simon",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 124,
+                "y": 678
+            }
+        },
+        {
+            "id": "6033",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": "Martin",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 620,
+                "y": 923
+            }
+        },
+        {
+            "id": "6034",
+            "type": "custom",
+            "data": {
+                "label": "Person",
+                "displayName": "Casper",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 115,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(, , , )",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 729,
+                "y": 918
+            }
+        },
+        {
+            "id": "6035",
+            "type": "custom",
+            "data": {
+                "label": "Partnerselskab (P/S)",
+                "displayName": "KC og partners",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 383,
+                "y": 572
+            }
+        },
+        {
+            "id": "6036",
+            "type": "custom",
+            "data": {
+                "label": "Partnerselskab (P/S)",
+                "displayName": "MC og partners",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 660,
+                "y": 1026
+            }
+        },
+        {
+            "id": "6037",
+            "type": "custom",
+            "data": {
+                "label": "Partnerselskab (P/S)",
+                "displayName": "Simon og partner",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(undefined, undefined, undefined, undefined)",
+                "borderColor": "rgba(undefined, undefined, undefined, undefined)"
+            },
+            "position": {
+                "x": 95,
+                "y": 764
+            }
+        },
+        {
+            "id": "6038",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 110,
+                "y": 871
+            }
+        },
+        {
+            "id": "6039",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 307,
+                "y": 1070
+            }
+        },
+        {
+            "id": "6040",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Medarbejdere",
+                        "value": "40",
+                        "show": true,
+                        "workspace_node_attribut_id": 116,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"30\",\"value\":\"30\"},{\"label\":\"20\",\"value\":\"20\"},{\"label\":\"40\",\"value\":\"40\"}]"
+                    },
+                    {
+                        "label": "Land",
+                        "value": "Danmark",
+                        "show": true,
+                        "workspace_node_attribut_id": 117,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 679,
+                "y": 1143
+            }
+        },
+        {
+            "id": "6041",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": null,
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Medarbejdere",
+                        "value": "40",
+                        "show": true,
+                        "workspace_node_attribut_id": 118,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"30\",\"value\":\"30\"},{\"label\":\"20\",\"value\":\"20\"},{\"label\":\"40\",\"value\":\"40\"}]"
+                    },
+                    {
+                        "label": "Selskabsform",
+                        "value": "ApS",
+                        "show": true,
+                        "workspace_node_attribut_id": 119,
+                        "type": "Value",
+                        "selectionOptions": null
+                    },
+                    {
+                        "label": "Land",
+                        "value": "Danmark",
+                        "show": true,
+                        "workspace_node_attribut_id": 120,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 404,
+                "y": 766
+            }
+        },
+        {
+            "id": "6042",
+            "type": "custom",
+            "data": {
+                "label": "Investor",
+                "displayName": "MC invest",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 111,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    },
+                    {
+                        "label": "Valuation",
+                        "value": "5.000.000.000",
+                        "show": true,
+                        "workspace_node_attribut_id": 113,
+                        "type": "Value",
+                        "selectionOptions": null
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 907,
+                "y": 931
+            }
+        },
+        {
+            "id": "6043",
+            "type": "custom",
+            "data": {
+                "label": "Investor",
+                "displayName": "KC invest",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 112,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 702,
+                "y": 525
+            }
+        },
+        {
+            "id": "6044",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "UK selskab KC",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 109,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 844,
+                "y": 693
+            }
+        },
+        {
+            "id": "6045",
+            "type": "custom",
+            "data": {
+                "label": "Selskab",
+                "displayName": "UK selskab MC",
+                "figur": null,
+                "unitNumber": null,
+                "attributes": [
+                    {
+                        "label": "Land",
+                        "value": "UK",
+                        "show": true,
+                        "workspace_node_attribut_id": 110,
+                        "type": "Selection",
+                        "selectionOptions": "[{\"label\":\"Afghanistan\",\"value\":\"Afghanistan\"},{\"label\":\"Albanien\",\"value\":\"Albanien\"},{\"label\":\"Algeriet\",\"value\":\"Algeriet\"},{\"label\":\"Andorra\",\"value\":\"Andorra\"},{\"label\":\"Angola\",\"value\":\"Angola\"},{\"label\":\"Antigua og Barbuda\",\"value\":\"Antigua og Barbuda\"},{\"label\":\"Argentina\",\"value\":\"Argentina\"},{\"label\":\"Armenien\",\"value\":\"Armenien\"},{\"label\":\"Aserbajdsjan\",\"value\":\"Aserbajdsjan\"},{\"label\":\"Australien\",\"value\":\"Australien\"},{\"label\":\"Bahamas\",\"value\":\"Bahamas\"},{\"label\":\"Bahrain\",\"value\":\"Bahrain\"},{\"label\":\"Bangladesh\",\"value\":\"Bangladesh\"},{\"label\":\"Barbados\",\"value\":\"Barbados\"},{\"label\":\"Belgien\",\"value\":\"Belgien\"},{\"label\":\"Belize\",\"value\":\"Belize\"},{\"label\":\"Benin\",\"value\":\"Benin\"},{\"label\":\"Bhutan\",\"value\":\"Bhutan\"},{\"label\":\"Bolivia\",\"value\":\"Bolivia\"},{\"label\":\"Bosnien-Hercegovina\",\"value\":\"Bosnien-Hercegovina\"},{\"label\":\"Botswana\",\"value\":\"Botswana\"},{\"label\":\"Brasilien\",\"value\":\"Brasilien\"},{\"label\":\"Brunei\",\"value\":\"Brunei\"},{\"label\":\"Bulgarien\",\"value\":\"Bulgarien\"},{\"label\":\"Burkina Faso\",\"value\":\"Burkina Faso\"},{\"label\":\"Burundi\",\"value\":\"Burundi\"},{\"label\":\"Cambodja\",\"value\":\"Cambodja\"},{\"label\":\"Cameroun\",\"value\":\"Cameroun\"},{\"label\":\"Canada\",\"value\":\"Canada\"},{\"label\":\"Chad\",\"value\":\"Chad\"},{\"label\":\"Chile\",\"value\":\"Chile\"},{\"label\":\"Colombia\",\"value\":\"Colombia\"},{\"label\":\"Comorene\",\"value\":\"Comorene\"},{\"label\":\"Congo\",\"value\":\"Congo\"},{\"label\":\"Cookøerne\",\"value\":\"Cookøerne\"},{\"label\":\"Costa Rica\",\"value\":\"Costa Rica\"},{\"label\":\"Cuba\",\"value\":\"Cuba\"},{\"label\":\"Cypern\",\"value\":\"Cypern\"},{\"label\":\"Danmark\",\"value\":\"Danmark\"},{\"label\":\"Den Centralafrikanske Republik\",\"value\":\"Den Centralafrikanske Republik\"},{\"label\":\"Den Demokratiske Republik Congo\",\"value\":\"Den Demokratiske Republik Congo\"},{\"label\":\"Djibouti\",\"value\":\"Djibouti\"},{\"label\":\"Dominica\",\"value\":\"Dominica\"},{\"label\":\"Dominikanske Republik\",\"value\":\"Dominikanske Republik\"},{\"label\":\"Ecuador\",\"value\":\"Ecuador\"},{\"label\":\"Egypten\",\"value\":\"Egypten\"},{\"label\":\"El Salvador\",\"value\":\"El Salvador\"},{\"label\":\"Elfenbenskysten\",\"value\":\"Elfenbenskysten\"},{\"label\":\"Eritrea\",\"value\":\"Eritrea\"},{\"label\":\"Estland\",\"value\":\"Estland\"},{\"label\":\"Etiopien\",\"value\":\"Etiopien\"},{\"label\":\"Fiji\",\"value\":\"Fiji\"},{\"label\":\"Filippinerne\",\"value\":\"Filippinerne\"},{\"label\":\"Finland\",\"value\":\"Finland\"},{\"label\":\"Forenede Arabiske Emirater\",\"value\":\"Forenede Arabiske Emirater\"},{\"label\":\"Frankrig\",\"value\":\"Frankrig\"},{\"label\":\"Gabon\",\"value\":\"Gabon\"},{\"label\":\"Gambia\",\"value\":\"Gambia\"},{\"label\":\"Georgien\",\"value\":\"Georgien\"},{\"label\":\"Ghana\",\"value\":\"Ghana\"},{\"label\":\"Grenada\",\"value\":\"Grenada\"},{\"label\":\"Grækenland\",\"value\":\"Grækenland\"},{\"label\":\"Guatemala\",\"value\":\"Guatemala\"},{\"label\":\"Guinea\",\"value\":\"Guinea\"},{\"label\":\"Guinea-Bissau\",\"value\":\"Guinea-Bissau\"},{\"label\":\"Guyana\",\"value\":\"Guyana\"},{\"label\":\"Haiti\",\"value\":\"Haiti\"},{\"label\":\"Holland\",\"value\":\"Holland\"},{\"label\":\"Honduras\",\"value\":\"Honduras\"},{\"label\":\"Hviderusland (Belarus)\",\"value\":\"Hviderusland (Belarus)\"},{\"label\":\"Indien\",\"value\":\"Indien\"},{\"label\":\"Indonesien\",\"value\":\"Indonesien\"},{\"label\":\"Irak\",\"value\":\"Irak\"},{\"label\":\"Iran\",\"value\":\"Iran\"},{\"label\":\"Irland\",\"value\":\"Irland\"},{\"label\":\"Island\",\"value\":\"Island\"},{\"label\":\"Israel\",\"value\":\"Israel\"},{\"label\":\"Italien\",\"value\":\"Italien\"},{\"label\":\"Jamaica\",\"value\":\"Jamaica\"},{\"label\":\"Japan\",\"value\":\"Japan\"},{\"label\":\"Jordan\",\"value\":\"Jordan\"},{\"label\":\"Kap Verde\",\"value\":\"Kap Verde\"},{\"label\":\"Kasakhstan\",\"value\":\"Kasakhstan\"},{\"label\":\"Kenya\",\"value\":\"Kenya\"},{\"label\":\"Kina\",\"value\":\"Kina\"},{\"label\":\"Kirgisistan\",\"value\":\"Kirgisistan\"},{\"label\":\"Kiribati\",\"value\":\"Kiribati\"},{\"label\":\"Kosovo\",\"value\":\"Kosovo\"},{\"label\":\"Kroatien\",\"value\":\"Kroatien\"},{\"label\":\"Kuwait\",\"value\":\"Kuwait\"},{\"label\":\"Laos\",\"value\":\"Laos\"},{\"label\":\"Lesotho\",\"value\":\"Lesotho\"},{\"label\":\"Letland\",\"value\":\"Letland\"},{\"label\":\"Libanon\",\"value\":\"Libanon\"},{\"label\":\"Liberia\",\"value\":\"Liberia\"},{\"label\":\"Libyen\",\"value\":\"Libyen\"},{\"label\":\"Liechtenstein\",\"value\":\"Liechtenstein\"},{\"label\":\"Litauen\",\"value\":\"Litauen\"},{\"label\":\"Luxembourg\",\"value\":\"Luxembourg\"},{\"label\":\"Madagaskar\",\"value\":\"Madagaskar\"},{\"label\":\"Malawi\",\"value\":\"Malawi\"},{\"label\":\"Malaysia\",\"value\":\"Malaysia\"},{\"label\":\"Maldiverne\",\"value\":\"Maldiverne\"},{\"label\":\"Mali\",\"value\":\"Mali\"},{\"label\":\"Malta\",\"value\":\"Malta\"},{\"label\":\"Marokko\",\"value\":\"Marokko\"},{\"label\":\"Marshalløerne\",\"value\":\"Marshalløerne\"},{\"label\":\"Mauritania\",\"value\":\"Mauritania\"},{\"label\":\"Mauritius\",\"value\":\"Mauritius\"},{\"label\":\"Mexico\",\"value\":\"Mexico\"},{\"label\":\"Mikronesien\",\"value\":\"Mikronesien\"},{\"label\":\"Moldova\",\"value\":\"Moldova\"},{\"label\":\"Monaco\",\"value\":\"Monaco\"},{\"label\":\"Mongoliet\",\"value\":\"Mongoliet\"},{\"label\":\"Montenegro\",\"value\":\"Montenegro\"},{\"label\":\"Mozambique\",\"value\":\"Mozambique\"},{\"label\":\"Myanmar (Burma)\",\"value\":\"Myanmar (Burma)\"},{\"label\":\"Namibia\",\"value\":\"Namibia\"},{\"label\":\"Nauru\",\"value\":\"Nauru\"},{\"label\":\"Nepal\",\"value\":\"Nepal\"},{\"label\":\"New Zealand\",\"value\":\"New Zealand\"},{\"label\":\"Nicaragua\",\"value\":\"Nicaragua\"},{\"label\":\"Niger\",\"value\":\"Niger\"},{\"label\":\"Nigeria\",\"value\":\"Nigeria\"},{\"label\":\"Niue\",\"value\":\"Niue\"},{\"label\":\"Nordkorea\",\"value\":\"Nordkorea\"},{\"label\":\"Nordmakedonien\",\"value\":\"Nordmakedonien\"},{\"label\":\"Norge\",\"value\":\"Norge\"},{\"label\":\"Oman\",\"value\":\"Oman\"},{\"label\":\"Pakistan\",\"value\":\"Pakistan\"},{\"label\":\"Palau\",\"value\":\"Palau\"},{\"label\":\"Palæstina\",\"value\":\"Palæstina\"},{\"label\":\"Panama\",\"value\":\"Panama\"},{\"label\":\"Papua Ny Guinea\",\"value\":\"Papua Ny Guinea\"},{\"label\":\"Paraguay\",\"value\":\"Paraguay\"},{\"label\":\"Peru\",\"value\":\"Peru\"},{\"label\":\"Polen\",\"value\":\"Polen\"},{\"label\":\"Portugal\",\"value\":\"Portugal\"},{\"label\":\"Qatar\",\"value\":\"Qatar\"},{\"label\":\"Rumænien\",\"value\":\"Rumænien\"},{\"label\":\"Rusland\",\"value\":\"Rusland\"},{\"label\":\"Rwanda\",\"value\":\"Rwanda\"},{\"label\":\"Saint Kitts og Nevis\",\"value\":\"Saint Kitts og Nevis\"},{\"label\":\"Saint Lucia\",\"value\":\"Saint Lucia\"},{\"label\":\"Saint Vincent og Grenadinerne\",\"value\":\"Saint Vincent og Grenadinerne\"},{\"label\":\"Salomonøerne\",\"value\":\"Salomonøerne\"},{\"label\":\"Samoa\",\"value\":\"Samoa\"},{\"label\":\"San Marino\",\"value\":\"San Marino\"},{\"label\":\"Saudi-Arabien\",\"value\":\"Saudi-Arabien\"},{\"label\":\"Schweiz\",\"value\":\"Schweiz\"},{\"label\":\"Senegal\",\"value\":\"Senegal\"},{\"label\":\"Serbien\",\"value\":\"Serbien\"},{\"label\":\"Seychellerne\",\"value\":\"Seychellerne\"},{\"label\":\"Sierra Leone\",\"value\":\"Sierra Leone\"},{\"label\":\"Singapore\",\"value\":\"Singapore\"},{\"label\":\"Slovakiet\",\"value\":\"Slovakiet\"},{\"label\":\"Slovenien\",\"value\":\"Slovenien\"},{\"label\":\"Somalia\",\"value\":\"Somalia\"},{\"label\":\"Spanien\",\"value\":\"Spanien\"},{\"label\":\"Sri Lanka\",\"value\":\"Sri Lanka\"},{\"label\":\"Storbritannien\",\"value\":\"Storbritannien\"},{\"label\":\"Sudan\",\"value\":\"Sudan\"},{\"label\":\"Surinam\",\"value\":\"Surinam\"},{\"label\":\"Sverige\",\"value\":\"Sverige\"},{\"label\":\"Swaziland\",\"value\":\"Swaziland\"},{\"label\":\"Sydafrika\",\"value\":\"Sydafrika\"},{\"label\":\"Sydkorea\",\"value\":\"Sydkorea\"},{\"label\":\"Sydsudan\",\"value\":\"Sydsudan\"},{\"label\":\"Syrien\",\"value\":\"Syrien\"},{\"label\":\"São Tomé og Príncipe\",\"value\":\"São Tomé og Príncipe\"},{\"label\":\"Tadsjikistan\",\"value\":\"Tadsjikistan\"},{\"label\":\"Taiwan\",\"value\":\"Taiwan\"},{\"label\":\"Tanzania\",\"value\":\"Tanzania\"},{\"label\":\"Thailand\",\"value\":\"Thailand\"},{\"label\":\"Tjekkiet\",\"value\":\"Tjekkiet\"},{\"label\":\"Togo\",\"value\":\"Togo\"},{\"label\":\"Tonga\",\"value\":\"Tonga\"},{\"label\":\"Trinidad og Tobago\",\"value\":\"Trinidad og Tobago\"},{\"label\":\"Tunesien\",\"value\":\"Tunesien\"},{\"label\":\"Turkmenistan\",\"value\":\"Turkmenistan\"},{\"label\":\"Tuvalu\",\"value\":\"Tuvalu\"},{\"label\":\"Tyrkiet\",\"value\":\"Tyrkiet\"},{\"label\":\"Tyskland\",\"value\":\"Tyskland\"},{\"label\":\"Uganda\",\"value\":\"Uganda\"},{\"label\":\"Ukraine\",\"value\":\"Ukraine\"},{\"label\":\"Ungarn\",\"value\":\"Ungarn\"},{\"label\":\"Uruguay\",\"value\":\"Uruguay\"},{\"label\":\"USA\",\"value\":\"USA\"},{\"label\":\"Usbekistan\",\"value\":\"Usbekistan\"},{\"label\":\"Vanuatu\",\"value\":\"Vanuatu\"},{\"label\":\"Vatikanstaten\",\"value\":\"Vatikanstaten\"},{\"label\":\"Venezuela\",\"value\":\"Venezuela\"},{\"label\":\"Vestsahara\",\"value\":\"Vestsahara\"},{\"label\":\"Vietnam\",\"value\":\"Vietnam\"},{\"label\":\"Yemen\",\"value\":\"Yemen\"},{\"label\":\"Zambia\",\"value\":\"Zambia\"},{\"label\":\"Zimbabwe\",\"value\":\"Zimbabwe\"},{\"label\":\"Ækvatorialguinea\",\"value\":\"Ækvatorialguinea\"},{\"label\":\"Østrig\",\"value\":\"Østrig\"},{\"label\":\"Østtimor\",\"value\":\"Østtimor\"}]"
+                    }
+                ],
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "borderColor": "rgba(, , , )"
+            },
+            "position": {
+                "x": 1030,
+                "y": 1089
+            }
+        },
+        {
+            "id": "5777",
+            "source": "6035",
+            "target": "6032",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Aftale eller dokument",
+                "value": "Kontrakt",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Kontrakt",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5778",
+            "source": "6032",
+            "target": "6037",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5779",
+            "source": "6030",
+            "target": "6035",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "50%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "50%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5780",
+            "source": "6031",
+            "target": "6035",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "50%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "50%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5781",
+            "source": "6033",
+            "target": "6036",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "50%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "50%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5782",
+            "source": "6034",
+            "target": "6036",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "50%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "50%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5783",
+            "source": "6037",
+            "target": "6038",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5784",
+            "source": "6038",
+            "target": "6039",
+            "sourceHandle": "rightTop",
+            "targetHandle": "leftTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Transaktion",
+                "value": "Tangible Assets",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "Tangible Assets",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5785",
+            "source": "6035",
+            "target": "6041",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5786",
+            "source": "6036",
+            "target": "6040",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5787",
+            "source": "6033",
+            "target": "6039",
+            "sourceHandle": "leftTop",
+            "targetHandle": "rightTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Investering",
+                "value": "DKK 300.000",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "DKK 300.000",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5788",
+            "source": "6042",
+            "target": "6045",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "67%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "67%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5789",
+            "source": "6042",
+            "target": "6040",
+            "sourceHandle": "bottom",
+            "targetHandle": "rightTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Investering",
+                "value": "DKK 300.000",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "DKK 300.000",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5790",
+            "source": "6043",
+            "target": "6041",
+            "sourceHandle": "bottom",
+            "targetHandle": "rightTop",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Investering",
+                "value": "DKK 300.000",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "DKK 300.000",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        },
+        {
+            "id": "5791",
+            "source": "6043",
+            "target": "6044",
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "style": {
+                "stroke": "rgba(0, 0, 0, 1)"
+            },
+            "data": {
+                "label": "Ejerskab",
+                "value": "100%",
+                "showLabel": false,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                },
+                "showArrow": false,
+                "animated": false,
+                "lineThrough": false,
+                "stroke": false
+            },
+            "label": "100%",
+            "labelBgPadding": [
+                0,
+                0
+            ],
+            "labelStyle": {},
+            "animated": false,
+            "arrowHeadType": false,
+            "type": null
+        }
+    ]
